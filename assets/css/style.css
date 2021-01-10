@@ -947,15 +947,20 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# ISO SECTION
 --------------------------------------------------------------*/
+
+.center {
+  display: table;
+  margin: auto;
+}
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  padding: 30px 30px 0 30px;
-  margin: 30px 15px;
+  padding: 20px;
+  margin: 15px 15px;
   text-align: center;
-  min-height: 350px;
+  min-height: 150px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   background-color: #2a2c39;
 }
@@ -1001,7 +1006,8 @@ section {
 
 .testimonials .testimonial-item p {
   font-style: italic;
-  margin: 0 auto 15px auto;
+  margin: 0;
+  color: rgb(197, 199, 199);
 }
 
 .testimonials .owl-nav,
