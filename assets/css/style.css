@@ -25,6 +25,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/* preloader style */
 .pre-loader {
   background-color: #2a2c39;
   position: fixed;
@@ -52,7 +53,7 @@ h6 {
   margin: 0 auto;
   width: 15%;
   height: 15%;
-  background-color: #7e0369;
+  background-color: #f8c2ef;
   border-radius: 100%;
   -webkit-animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
   animation: sk-circleFadeDelay 1.2s infinite ease-in-out both;
@@ -176,6 +177,7 @@ h6 {
     opacity: 1;
   }
 }
+/* preloader style END */
 
 /*--------------------------------------------------------------
 # Back to top button
