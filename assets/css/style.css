@@ -71,7 +71,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(42, 44, 57, 0.9);
+  /* background: #5a5f75; */
 }
 
 #header.header-transparent {
@@ -79,7 +79,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(42, 44, 57);
+  background: rgb(149, 151, 165);
 }
 
 #header .logo h1 {
@@ -98,11 +98,11 @@ h6 {
 }
 
 #header .logo img {
-  padding: 0;
+  padding-top: 60px;
   margin: 0;
-  max-height: 100px;
-  height: 80px;
-  width: 100px;
+  max-height: 300px;
+  height: 250px;
+  width: 150px;
 }
 
 /*--------------------------------------------------------------
