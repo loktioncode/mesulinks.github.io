@@ -1582,8 +1582,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #14151c;
-  color: #fff;
+  background: #fff;
+  color: #14151c;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1592,7 +1592,7 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #fff;
+  color: #2a2c39;
   position: relative;
   font-family: "Poppins", sans-serif;
   padding: 0;
