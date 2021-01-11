@@ -719,7 +719,7 @@ section {
 .about {
   padding-top: 80px;
   /* background-color: #aaaaaa1f; */
-  background: url(../img/pattern.jpg);
+  background: url(../img/pattern.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -924,6 +924,14 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+}
+
+.services {
+  background: url(../img/biz.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-attachment: fixed;
 }
 
 .services .icon-box {
@@ -1460,7 +1468,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background: url(../img/pattern.jpg);
+  background: url(../img/pattern.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
