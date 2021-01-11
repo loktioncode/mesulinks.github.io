@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #aaaaaa1f;
 }
 
 /* a {
@@ -493,7 +494,7 @@ h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  height: 90vh;
+  height: 100vh;
   background: linear-gradient(0deg, #30323a 0%, #33364aaf 100%);
   padding: 0;
 }
@@ -717,6 +718,11 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding-top: 80px;
+  /* background-color: #aaaaaa1f; */
+  background: url(../img/pattern.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .about .content h3 {
@@ -913,6 +919,13 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.extra {
+  background: url(../img/watermark.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -1107,6 +1120,10 @@ section {
 .center {
   display: table;
   margin: auto;
+}
+.testimonials {
+  background: url(../img/watermark.png);
+  background-position: fixed;
 }
 
 .testimonials .testimonial-item {
@@ -1360,7 +1377,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background: url(../img/watermark.png);
   padding: 60px 0;
 }
 
@@ -1442,9 +1459,15 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact {
+  background: url(../img/pattern.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: rgba(255, 255, 255, 0);
 }
 
 .contact .info i {
@@ -1490,7 +1513,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: rgba(255, 255, 255, 0);
 }
 
 .contact .php-email-form .form-group {
@@ -1735,8 +1758,9 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
 #footer {
-  background: #fff;
+  background-color: #aaaaaa1f;
   color: #14151c;
   font-size: 14px;
   text-align: center;
