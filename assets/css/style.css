@@ -717,12 +717,8 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  padding-top: 80px;
-  /* background-color: #aaaaaa1f; */
-  background: url(../img/pattern.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
+  padding-top: 30px;
+  background-color: #aaaaaa1f;
 }
 
 .about .content h3 {
@@ -1384,10 +1380,13 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-/* .team {
-  background: url(../img/watermark.png);
-  padding: 60px 0;
-} */
+.team {
+  background: url(../img/pattern.png);
+  padding: 39.5px 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+}
 
 .team .member {
   margin-bottom: 20px;
@@ -1468,7 +1467,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background: url(../img/pattern.png);
+  background: url(../img/shake.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -1495,9 +1494,9 @@ section {
 .contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 5px;
-  color: #2a2c39;
+  color: #0b0b11;
 }
 
 .contact .info p {
