@@ -1,19 +1,5 @@
 /**
-* Template Name: Mesulink Dynamic - v2.3.0
-* Template URL: https://bootstrapmade.com/Mesulink Dynamic-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-(function($){
-  'use strict';
-    $(window).on('load', function () {
-        if ($(".pre-loader").length > 0)
-        {
-            $(".pre-loader").fadeOut("slow");
-        }
-    });
-})(jQuery)
 
 
 !(function($) {
